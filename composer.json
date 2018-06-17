@@ -13,15 +13,23 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "react/promise": "^2.2"
+        "react/promise": "^2.2",
+        "fillup/walmart-auth-signature-php": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
     },
     "autoload": {
-        "classmap": [
-            "yujiarong/walmart_api"
-        ],
+        "psr-4": {
+            "fillup\\": "src/array2xml/src/",
+            "GuzzleHttp\\Command\\Guzzle\\": "src/guzzle-services/src/",
+            "GuzzleHttp5\\Command\\": "src/guzzlehttp/command/src/",
+            "GuzzleHttp5\\": "src/guzzlehttp/guzzle/src/",
+            "GuzzleHttp5\\Subscriber\\Retry\\": "src/guzzlehttp/retry-subscriber/src/",
+            "GuzzleHttp5\\Ring\\": "src/guzzlehttp/ringphp/src/",
+            "GuzzleHttp5\\Stream\\": "src/guzzlehttp/streams/src/",
+            "Walmart\\": "src/walmart-partner-api-sdk-php/src/"
+        }
     },
     "extra": {
         "branch-alias": {
