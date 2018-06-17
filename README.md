@@ -1,0 +1,2 @@
+# walmart_api
+fillup的GuzzleHttp5版本太低,仅仅只是修改了命名空间用于兼容GuzzleHttp6用于公司内部使用
