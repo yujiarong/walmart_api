@@ -1,0 +1,31 @@
+{
+    "name": "yujiarong/walmart_api",
+    "description": "Provides walmart_api Compatible with HTTP and GuzzleHttp5 in fillup  and GuzzleHttp6,only within the company's internal use ",
+    "homepage": "http://guzzlephp.org/",
+    "keywords": ["walmart_api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yujiarong",
+            "email": "210yujiarong@gmail.com",
+            "homepage": "https://github.com/yujiarong"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "react/promise": "^2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "yujiarong/walmart_api"
+        ],
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        }
+    }
+}
