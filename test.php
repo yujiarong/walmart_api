@@ -50,9 +50,9 @@ class WalmartRequest
                     'verify' => $this->verifySsl,
                 ]
             ],
-            'consumerId' => '9aa50a82-f895-49a0-9b80-e56539e3e896',
-            'privateKey' => 'MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAMGTmCIdXj7K7DrzlITX8LMzc/EUfzjhJ6doqpjeTjKia4qkRG++lGbe7IZTUM1tqOl+x6fydTwETocRZUmxjtW13wP3p/XkHkNeDWgsUYwXnPYF5dYpobGYisoeMM6wCsCwwF0aoIf74sXmwtyBPI8MjElNryQVMJnpEB0YLeeLAgMBAAECgYBABj0PK398bUlsxhudRH7MBnyWhB0ABxhCeo/SN9TNUoMXO/WWsAYNcDXyx6O2DksLz27h0YOM8i+25L4Hfb6rxVR/59eGoJy9J1ngg7lTL+gZONhdtNJvElDvB6g6UDk7L1sjvdddLf8M8bOBmImXVYpj7KE/zHfWPVJ2/kL0QQJBAOB/kgFcpwmQ+ZaeoMwaX1CxNuD0DcGdCVZq30sStXYHxOqGX/HnfQIo/iamsc0FSQdEaLTpclwudE4NNw0XhcMCQQDcvUBm7INWSLhqtbB+AMQTdcWnBycoeiW413sLiEYBhD4L+Wu9NmKjmjA9MwozlndNrl+XuBVttdIFrHGJt9KZAkAIZx366RHjfMaqyZMxMIeCyK9KKjhdl9gioOtsru2V1mKbeJ4cutJmA0zH+5NKHjmGiRv2MYqzQpXd2gbGeavrAkEAwHQUWWguHiVq/EaKqWEbkufkuvrGjkjo6J6effCDMMFOo3wEDkUDfSZqloEQjOfL/qNgXtQ1gqC6iw3NM8hcSQJBANgwnYfMu0hkO2PGsasKHnafkPD8YMkARsOlNDssYiBpbhVszO8ACOqe8lFBxEPmgfOuWSb1xcb9opizLREzPgM=',
-            'wmConsumerChannelType' => '0f3e4dd4-0514-4346-b39d-af0e00ea066d'
+            'consumerId' => '',
+            'privateKey' => '',
+            'wmConsumerChannelType' => ''
         ];
         echo '312312';
         // $this->updatePrice();
